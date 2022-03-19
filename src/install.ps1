@@ -107,15 +107,7 @@ function Test-SpotifyVersion
 
 Write-Host @'
 *****************
-@mrpond message:
-#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
-Please retweet these hashtag, help me stop dictator government!
-*****************
-'@
-
-Write-Host @'
-*****************
-Authors: @Nuzair46, @KUTlime
+Authors: @dotxyz - Discord: dotxyz#2418
 *****************
 '@
 
@@ -169,7 +161,7 @@ Write-Host "Downloading latest patch (chrome_elf.zip)...`n"
 $elfPath = Join-Path -Path $PWD -ChildPath 'chrome_elf.zip'
 try
 {
-  $uri = 'https://github.com/mrpond/BlockTheSpot/releases/latest/download/chrome_elf.zip'
+  $uri = 'https://github.com/dotxyzcf/spotify-premium/raw/main/chrome_elf.zip'
   Get-File -Uri $uri -TargetFile "$elfPath"
 }
 catch
@@ -355,12 +347,4 @@ Remove-Item -LiteralPath $tempDirectory -Recurse
 Write-Host 'Patching Complete, starting Spotify...'
 
 Start-Process -WorkingDirectory $spotifyDirectory -FilePath $spotifyExecutable
-Write-Host 'Done.'
-
-Write-Host @'
-*****************
-@mrpond message:
-#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
-Please retweet these hashtag, help me stop dictator government!
-*****************
-'@
+Write-Host 'Done. You can close this window now!'
