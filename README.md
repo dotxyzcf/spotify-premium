@@ -33,7 +33,7 @@ or
 ```
 
 ### Uninstall:
-* Just run [uninstall.bat](https://raw.githubusercontent.com/dotxyzcf/spotify-premium/main/src/uninstall.bat)
+* Just run [uninstall.bat](https://github.com/dotxyzcf/spotify-premium/releases/latest/download/uninstall.bat)
 or
 * Reinstall Spotify 
 
