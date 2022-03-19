@@ -1,6 +1,8 @@
 @echo off
 echo *****************
-echo Author: @rednek46
+echo Authors: @dotxyz
+echo Discord: dotxyz#2418
+echo Support: https://discord.gg/H3J6Ar26dv
 echo *****************
 echo Removing Patch
 if exist "%APPDATA%\Spotify\chrome_elf_bak.dll" (
