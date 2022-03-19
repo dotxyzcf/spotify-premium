@@ -107,7 +107,8 @@ function Test-SpotifyVersion
 
 Write-Host @'
 *****************
-Authors: @dotxyz - Discord: dotxyz#2418
+Authors: @dotxyz - dotxyz#2418
+Discord: https://discord.gg/H3J6Ar26dv
 *****************
 '@
 
