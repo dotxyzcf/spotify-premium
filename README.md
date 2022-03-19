@@ -17,7 +17,7 @@
 :warning: This mod is for the [**Desktop Application**](https://www.spotify.com/download/windows/) of Spotify on Windows only and **not the Microsoft Store version**.
 
 ### Installation/Update:
-* Just download and run [Spotify-Premium.bat](https://github.com/dotxyzcf/spotify-premium/releases/latest/download/Spotify-Premium_Windows.bat)  
+* Just download and run [Spotify-Premium.bat](https://github.com/dotxyzcf/spotify-premium/releases/latest/download/Spotify-Premium.bat)  
 
 or
 
