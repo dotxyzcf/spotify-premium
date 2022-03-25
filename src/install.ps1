@@ -1,13 +1,13 @@
 param (
   [Parameter()]
   [switch]
-  $UninstallSpotifyStoreEdition = (Read-Host -Prompt 'Uninstall Spotify Windows Store edition if it exists (Y/N)') -eq 'y',
+  $UninstallSpotifyStoreEdition = (Read-Host -Prompt 'Uninstall Spotify Windows Store edition if it exists? [Y = YES | N = NO] (Y/N)') -eq 'y',
   [Parameter()]
   [switch]
   $UpdateSpotify,
   [Parameter()]
   [switch]
-  $RemoveAdPlaceholder = (Read-Host -Prompt 'Optional - Remove ad placeholder and upgrade button. (Y/N)') -eq 'y'
+  $RemoveAdPlaceholder = (Read-Host -Prompt 'Optional - Remove ad placeholder and upgrade button? [Y = YES | N = NO] (Y/N)') -eq 'y'
 )
 
 # Ignore errors from `Stop-Process`
@@ -180,7 +180,7 @@ $unsupportedClientVersion = ($actualSpotifyClientVersion | Test-SpotifyVersion -
 
 if (-not $UpdateSpotify -and $unsupportedClientVersion)
 {
-  if ((Read-Host -Prompt 'In order to install Block the Spot, your Spotify client must be updated. Do you want to continue? (Y/N)') -ne 'y')
+  if ((Read-Host -Prompt 'In order to install Block the Spot, your Spotify client must be updated. Do you want to continue? [Y = YES | N = NO] (Y/N)') -ne 'y')
   {
     exit
   }
