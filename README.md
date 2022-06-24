@@ -14,7 +14,7 @@
 * Unlocks the skip function for any track
 * Now supports the new Alpha version (New UI)
 
-:warning: This mod is for the [**Desktop Application**](https://www.spotify.com/download/windows/) of Spotify on Windows only and **not the Microsoft Store version**.
+:warning: This mod is for the [**Desktop Application**](https://www.spotify.com/download/windows/) of Spotify on Windows only and **not the Microsoft Store version**. If you dont know, which version you have just run the installer and answer everything with **Y (Yes)**. It would check it autmatically and change the version, if needed.
 
 ### Installation/Update:
 * Just download and run [Spotify-Premium.bat](https://github.com/dotxyzcf/spotify-premium/releases/latest/download/Spotify-Premium.bat)  
